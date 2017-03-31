@@ -29,7 +29,7 @@ p {
 
 .site-nav li {
   display: inline;
-  padding: .5vw;
+  padding: .75vw;
 }
 
 .site-nav a, .site-nav a:visited {
@@ -48,6 +48,12 @@ p {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid lightgray;
+}
+
+.main-copy-image {
+  max-width: 250px;
+  padding-right: 1rem;
+  float: left;
 }
 
 .main-aside {
