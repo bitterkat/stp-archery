@@ -3,30 +3,8 @@
 }
 
 html {
-  /*background-color: #ffffff;*/
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  /*background-color: black;*/
-}
-
-p {
-  /*line-height: 1.5rem;*/
-}
-
-a, a:visited {
-  /*color: #bf0000;*/
-}
-
-nav a, nav a:visited {
-  /*color: purple;*/
-}
-
-nav {
-  /*background-color: lightgray;
-  font-size: 1.25rem;
-  padding: .75rem 1rem;*/
-  /*display: flex;
-  justify-content: flex-end;*/
 }
 
 p {
@@ -34,32 +12,12 @@ p {
   line-height: 2pw;
 }
 
-#container {
-  /*margin-left: 2vw;
-  background-color: white;*/
-}
-
 .site-header {
   display: flex;
-  flex-wrap: nowrap;
+  flex-direction: row;
   background-color: black;
   color: white;
 }
-
-.site-nav a, .site-nav a:visited {
-  color: lightgray;
-  text-decoration: none;
-}
-
-.site-nav a:hover {
-  background-color: white;
-  color: black;
-}
-
-/*.site-header .logo {
-  width: 100px;
-  height: 100px;
-}*/
 
 .site-header h1 {
   padding-left: 2vw;
@@ -74,32 +32,34 @@ p {
   padding: .5vw;
 }
 
+.site-nav a, .site-nav a:visited {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  background-color: white;
+  color: black;
+}
+
 .main-copy {
   margin: 0 auto;
-  width: 60vw;
+  width: 70vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid lightgray;
 }
 
 .main-aside {
   margin: 0 auto;
-  width: 60vw;
+  width: 70vw;
+  padding-left: 2rem;
   border-bottom: 1px solid lightgray;
   display: flex;
-  /*flex-direction: row;*/
 }
 
 .main-aside-schedule li {
   margin: 2rem;;
-}
-
-.grid-cell {
-  flex: 1;
-  padding: 3vw;
-}
-
-.main-aside {
-
-  padding: 2vw;
 }
 
 .main-aside ul {
@@ -107,42 +67,15 @@ p {
   margin-left: -5rem;
 }
 
-/* With gutters */
-.Grid--gutters {
-  margin: -1em 0 0 -1em;
-}
-.Grid--gutters > .Grid-cell {
-  padding: 1em 0 0 1em;
-}
-
-/* Alignment per row */
-.Grid--top {
-  align-items: flex-start;
-}
-.Grid--bottom {
-  align-items: flex-end;
-}
-.Grid--center {
-  align-items: center;
-}
-
-/* Alignment per cell */
-.Grid-cell--top {
-  align-self: flex-start;
-}
-.Grid-cell--bottom {
-  align-self: flex-end;
-}
-.Grid-cell--center {
-  align-self: center;
+.grid-cell {
+  flex: 1;
+  padding: 2vw;
 }
 
 .site-footer {
   margin: 0 auto;
-  width: 60vw;
+  width: 70vw;
   padding: 2vw;
-  /*background-color: yellow;*/
-  /*text-align: center;*/
 }
 
 .site-footer a {
