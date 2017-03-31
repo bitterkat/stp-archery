@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 
 html {
   /*background-color: #ffffff;*/
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+  background-color: black;
 }
 
 p {
@@ -26,8 +30,8 @@ nav {
 }
 
 #container {
-  display: flex;
-  flex-direction: column;
+  margin-left: 2vw;
+  background-color: white;
 }
 
 .site-header {
@@ -40,29 +44,44 @@ nav {
   display: flex;
 }
 
-.main-row {
+.grid {
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
 }
 
-.main-row .main-aside {
-  display: flex;
-  flex-direction: column;
+.grid-cell {
+  flex: 1;
+  padding: 3vw;
 }
 
-.main-copy {
-  /*margin: 1.25rem .5rem 0 1.25rem;*/
+/* With gutters */
+.Grid--gutters {
+  margin: -1em 0 0 -1em;
+}
+.Grid--gutters > .Grid-cell {
+  padding: 1em 0 0 1em;
 }
 
-.main-aside {
-  /*margin: 1.25rem .5rem;
-  border: 1px solid black;*/
-  display: flex;
-  flex-direction: column;
+/* Alignment per row */
+.Grid--top {
+  align-items: flex-start;
+}
+.Grid--bottom {
+  align-items: flex-end;
+}
+.Grid--center {
+  align-items: center;
 }
 
-.main-aside-article {
-  /*margin-bottom: 1.5rem;*/
+/* Alignment per cell */
+.Grid-cell--top {
+  align-self: flex-start;
+}
+.Grid-cell--bottom {
+  align-self: flex-end;
+}
+.Grid-cell--center {
+  align-self: center;
 }
 
 .copyright {
