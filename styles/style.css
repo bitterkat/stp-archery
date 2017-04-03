@@ -7,9 +7,13 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   color: gray;
-  line-height: 2pw;
+  line-height: 2vw;
 }
 
 .site-header {
@@ -52,8 +56,13 @@ p {
 
 .main-copy-image {
   max-width: 250px;
+  max-height: 300px;
   padding-right: 1rem;
   float: left;
+}
+
+.main-copy ul {
+  list-style: none;
 }
 
 .main-aside {
