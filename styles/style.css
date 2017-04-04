@@ -2,33 +2,31 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
 }
 
 a {
   text-decoration: none;
 }
 
-p {
-  /*color: gray;*/
-  /*line-height: 2vw;*/
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+#container {
+  background-color: white;
 }
 
 .site-header {
-  display: flex;
-  flex-direction: row;
   background-color: black;
   color: white;
 }
 
-.site-header h1 {
-  padding-left: 2vw;
-}
-
 .site-nav ul {
-  padding-top: 4vh;
+  padding-top: 3vh;
 }
 
 .site-nav li {
@@ -49,8 +47,8 @@ p {
 .main-copy {
   margin: 0 auto;
   width: 60vw;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   border-bottom: 1px solid lightgray;
 }
 
@@ -60,9 +58,6 @@ p {
 
 .main-copy-image {
   max-width: 250px;
-  /*max-height: 300px;*/
-  padding-right: 1rem;
-  float: left;
 }
 
 .main-copy ul {
@@ -70,28 +65,32 @@ p {
 }
 
 .main-aside {
-  margin: 0 auto;
-  width: 60vw;
-  padding-left: 2rem;
-  border-bottom: 1px solid lightgray;
-  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.grid-cell {
-  flex: 1;
-  padding: 2vw;
+.main-policy {
+  margin: 0 auto;
+  width: 60vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: black;
+  font-size: small;
+  border-top: 1px solid lightgray;
+}
+
+.bold {
+  color: black;
+  font-weight: bold;
 }
 
 .site-footer {
   margin: 0 auto;
   width: 60vw;
-  padding: 2vw;
+  padding-top: 4rem;
+  background-color: black;
 }
 
 .site-footer a {
   text-decoration: none;
 }
-
-.site-footer-bold {
-  color: black;
-  font-weight: bold;
