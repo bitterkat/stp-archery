@@ -3,12 +3,12 @@
 }
 
 body {
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    background-color: black;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: black;
 }
 
-a {
+a, a:hover {
   text-decoration: none;
 }
 
@@ -31,17 +31,16 @@ ul {
 }
 
 .site-nav ul {
-  padding-top: 3vh;
+  padding-top: 3rem;
 }
 
 .site-nav li {
   display: inline;
-  padding: .75vw;
+  padding-right: 1rem;
 }
 
 .site-nav a, .site-nav a:visited {
   color: lightgray;
-  text-decoration: none;
 }
 
 .site-nav a:hover {
@@ -49,60 +48,50 @@ ul {
   color: black;
 }
 
-.main-copy {
-  margin: 0 auto;
-  width: 60vw;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid lightgray;
+.main-header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+  letter-spacing: .5rem;
+  background-color: gray;
+  color: lightgray;
 }
 
-.main-copy p {
+.main-divider {
+  border-top: 1px solid lightgray;
+}
+
+.main-copy {
+  padding: 4rem;
+}
+
+.main-copy p, .main-copy address {
   color: gray;
 }
 
 .main-copy-image {
-  max-width: 250px;
+  max-width: 275px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-.main-copy ul {
-  list-style: none;
-}
-
-.main-aside {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.main-policy {
-  margin: 0 auto;
-  width: 60vw;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.policy {
   color: black;
-  font-size: small;
-  border-top: 1px solid lightgray;
-}
-
-.bold {
-  color: black;
-  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
 }
 
 .site-footer {
   margin: 0 auto;
   width: 60vw;
   padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: black;
   color: gray;
   letter-spacing: 1px;
 }
 
-.site-footer a {
-  text-decoration: none;
-}
-
 .site-footer li {
   display: inline;
-  padding-right: 1vw;
+  padding-right: 1rem;
 }
