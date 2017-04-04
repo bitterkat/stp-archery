@@ -12,8 +12,8 @@ a {
 }
 
 p {
-  color: gray;
-  line-height: 2vw;
+  /*color: gray;*/
+  /*line-height: 2vw;*/
 }
 
 .site-header {
@@ -54,9 +54,13 @@ p {
   border-bottom: 1px solid lightgray;
 }
 
+.main-copy p {
+  color: gray;
+}
+
 .main-copy-image {
   max-width: 250px;
-  max-height: 300px;
+  /*max-height: 300px;*/
   padding-right: 1rem;
   float: left;
 }
@@ -71,15 +75,6 @@ p {
   padding-left: 2rem;
   border-bottom: 1px solid lightgray;
   display: flex;
-}
-
-.main-aside-schedule li {
-  margin: 2rem;;
-}
-
-.main-aside ul {
-  list-style: none;
-  margin-left: -5rem;
 }
 
 .grid-cell {
