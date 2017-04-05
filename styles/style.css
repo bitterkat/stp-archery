@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   background-color: black;
+  color: #515151;
 }
 
 a, a:hover {
@@ -21,12 +22,22 @@ ul {
   list-style-type: none;
 }
 
-#container {
-  background-color: white;
+.container {
+  width: 100%;
+  padding: 0;
 }
 
 .site-header {
   background-color: black;
+  color: white;
+  padding-left: 2rem;
+}
+
+.site-header img {
+  max-width: 250px;
+}
+
+.site-title a {
   color: white;
 }
 
@@ -36,7 +47,7 @@ ul {
 
 .site-nav li {
   display: inline;
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 
 .site-nav a, .site-nav a:visited {
@@ -48,13 +59,20 @@ ul {
   color: black;
 }
 
+#main-header-container {
+  background-color: #515151;
+  color: lightgray;
+}
+
+#main-container {
+  background-color: white;
+}
+
 .main-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 4rem;
   letter-spacing: .5rem;
-  background-color: gray;
-  color: lightgray;
 }
 
 .main-divider {
@@ -66,7 +84,7 @@ ul {
 }
 
 .main-copy p, .main-copy address {
-  color: gray;
+  /*color: gray;*/
 }
 
 .main-copy-image {
@@ -76,19 +94,20 @@ ul {
 }
 
 .policy {
-  color: black;
+  /*color: black;*/
   font-style: italic;
   font-size: 12px;
 }
 
 .site-footer {
-  margin: 0 auto;
-  width: 60vw;
+  /*margin: 0 auto;*/
+  /*width: 60vw;*/
+  padding-left: 2rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: black;
+  /*background-color: black;*/
   color: gray;
-  letter-spacing: 1px;
+  letter-spacing: 1px;*/
 }
 
 .site-footer li {
