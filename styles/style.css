@@ -87,12 +87,13 @@ blockquote {
 .main-copy-image {
   max-width: 275px;
   padding-top: 2rem;
+  padding-right: 2rem;
 }
 
 .main-copy-image-inset {
-  float: left;
-  max-width: 250px;
-  padding-right: 2rem;
+  float: right;
+  max-width: 350px;
+  padding-left: 2rem;
   padding-bottom: 1rem;
 }
 
