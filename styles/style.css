@@ -13,7 +13,7 @@ a, a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2,h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
@@ -29,10 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-header img {
   max-width: 250px;
+  opacity: 0.8;
 }
 
 .site-title {
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 
 .site-title a {
@@ -41,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-nav {
   padding-top: 2rem;
+  padding-right: 2rem;
 }
 
 .site-nav li {
@@ -58,20 +60,18 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
-#main-header-container {
-  background-color: #515151;
-  color: lightgray;
-}
-
-#main-container {
+.main-container {
   background-color: white;
 }
 
 .main-header {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 4rem;
-  letter-spacing: .5rem;
+  padding-top: 4rem;
+  /*padding-left: 4rem;*/
+}
+
+blockquote {
+  font-size: 1.45rem;
+  margin-left: 3.5rem;
 }
 
 .main-divider {
@@ -79,13 +79,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-copy {
-  padding: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
 }
 
 .main-copy-image {
   max-width: 275px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 2rem;
+}
+
+.main-copy-image-inset {
+  float: left;
+  max-width: 250px;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 
 .policy {
